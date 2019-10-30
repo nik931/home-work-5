@@ -1,0 +1,188 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***************************/
+
+.wrapper{
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+}
+.center{
+	max-width:  1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+.container1{
+	width: 100%;
+	max-width: 1920px;
+	height: 100vh;
+	max-height: 1025px;
+	background: url(./img/slide1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container1 .center header{
+	padding-top: 38px;
+}
+.container1 .center header .block_logo{
+	display: inline-block;
+}
+.container1 .center header .block_logo p{
+	display: inline;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 34px;
+	color: #f3f3f3;
+	position: relative;
+	top: -15px;
+}
+.container1 .center header .header_navbar{
+	display: inline-block;
+	width: 70%;	
+	margin-left: 10%;
+	position: relative;
+	top: -20px;
+}
+.container1 .center header .header_navbar ul{
+	display: flex;
+	justify-content: space-between;
+}
+.container1 .center header .header_navbar ul li{
+	display: inline;
+}
+.container1 .center header .header_navbar ul li svg{
+	color: #fff;
+	font-size: 24px;
+	position: relative;
+	top: -5px;
+}
+.container1 .center header .header_navbar ul li a{
+	text-decoration: none;
+	color: #b1b2b3;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+.container1 .center header .header_navbar ul li a:hover{
+	color: #c7b299;
+}
+.container1 .center header .header_navbar ul li:nth-child(9){
+	margin-left: 30px;
+}
+.container1 .center .text{
+	text-align: center;
+	padding-top: 15%;
+	width: 600px;
+	margin: 0 auto;
+}
+.container1 .center .text .p1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 36px;
+}
+.container1 .center .text .p2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 52px;
+	color: #ffffff;
+	padding-top: 24px;
+}
+.container1 .center .text .p3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 72px;
+}
+.container1 .center .text a{
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	padding: 21px 38px 21px 38px;
+	background-color: #998675;
+	color: #ffffff;
+	text-transform: uppercase;
+	border-radius: 2px;
+	box-shadow: 0px 4px 0px 0px #736357;
+}
+.container2{
+	height: 372px;	
+	width: 100%;
+	background: #fff;
+}
+.container2 .center .flex_container{
+	display: flex;
+	justify-content: space-around;
+
+}
+.container2 .center .flex_container .item{
+	max-width: 280px;
+	width: 100%;
+	padding-top: 84px;
+	text-align: center;
+}
+.container2 .center .flex_container .item h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #555555;
+	font-size: 22px;
+	padding-top: 30px;
+}
+.container2 .center .flex_container .item .osn{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: #8c8c8c;
+	font-size: 14px;
+	padding-top: 28px;
+	padding-bottom: 30px;
+}
+.container2 .center .flex_container .item span{
+	font-size: 48px;
+}
+.container2 .center .flex_container div:hover span, .container2 .center .flex_container div:hover h2{
+    color: #c7b299;
+}
